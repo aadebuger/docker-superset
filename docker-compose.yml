@@ -1,0 +1,13 @@
+version: '2'
+services:
+
+
+
+
+ arduino:
+    image: aadebuger/superset
+    ports:
+      - "8088:8088" 
+    volumes:
+       - ./codews:/codews
+    tty: true
